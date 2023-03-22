@@ -1,0 +1,20 @@
+.panel{
+    width: 200px;
+    max-width: 260px;
+    height: 45px;
+    background-color: var(--backgroundHeader);
+    color: var(--fontColor);
+    border: none;
+    border-radius: 5px;
+    margin: 25px 16px  0;
+    padding: 5px 20px;
+}
+
+
+@media (max-width: 600px){
+    .panel{
+        width: 290px;
+     max-width: 100%;
+}
+}
+

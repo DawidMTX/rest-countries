@@ -1,0 +1,40 @@
+
+.content{
+    width: 100%;
+    height: 55%;
+    padding: 30px 25px;
+    color: var(--fontColor);
+    
+}
+.content h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.content p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.flag{
+    height: 45%;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.contener{
+    margin: 15px;
+    width: 225px;
+    height: 340px;
+    background-color: var(--backgroundHeader);
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px var(--shadow);
+    overflow: hidden;
+    
+}
+@media(max-width: 1023px){
+    .contener{
+        margin: 20px;
+        width: 260px;
+    }
+}
+

@@ -1,0 +1,39 @@
+.header {
+    min-width: 320px;
+    height: 82px;
+    background-color: var(--backgroundHeader);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--fontColor)
+}
+.title{
+    font-size: 24px;
+}
+.contener {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+    max-width: var(--contentWidth);
+}
+
+.darkMode {
+    background-color: transparent;
+    border: none;
+    color: var(--fontColor);
+    font-size: 14px;
+    
+}
+
+
+@media (max-width: 420px){
+    .title{
+    font-size: 15px;
+}
+.darkMode{
+    font-size: 12px;
+}
+}
